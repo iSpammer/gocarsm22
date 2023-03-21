@@ -24,10 +24,10 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
   shared_preferences:
-  http:
+  http: any
   bottom_navy_bar:
   fluttertoast:
-  dio: 2.2.2
+  dio: ">=2.2.2 <6.0.0"
   morpheus: ^1.2.2+1
   bubble_bottom_bar: ^1.2.0
   shifting_tabbar: ^0.3.1
@@ -37,9 +37,9 @@ dependencies:
   splashscreen:
   photo_view: ^0.5.0
   google_maps_flutter:
-  flutter_polyline_points: ^0.1.0
+  flutter_polyline_points: ">=0.1.0 <2.0.0"
   great_circle_distance: ^1.0.1
-  basic_utils: ^1.2.0
+  basic_utils: ">=1.2.0 <4.0.0"
   flutter_rating_bar: ^3.0.0
   flutter_svg: ^0.14.4
   smooth_star_rating: 1.0.3
